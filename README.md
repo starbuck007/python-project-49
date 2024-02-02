@@ -6,6 +6,13 @@
 ### Games
 
 #### Parity check
- ```>> brain-even```
-
+ ```
+ brain-even
+ ```
 [![asciicast](https://asciinema.org/a/xVQ1HvpjTM9QTodR7EBILfCTN.svg)](https://asciinema.org/a/xVQ1HvpjTM9QTodR7EBILfCTN)
+
+#### Calc game
+```
+brain-calc
+```
+[![asciicast](https://asciinema.org/a/f9fANiYVU7FBdHuskZpzqPMro.svg)](https://asciinema.org/a/f9fANiYVU7FBdHuskZpzqPMro)
