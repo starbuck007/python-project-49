@@ -28,3 +28,9 @@ brain-gcd
 brain-progression
 ```
 [![asciicast](https://asciinema.org/a/qslYdQjABsxlOSGpuNqcylq6B.svg)](https://asciinema.org/a/qslYdQjABsxlOSGpuNqcylq6B)
+
+#### Is It a Prime Number
+```
+brain-prime
+```
+[![asciicast](https://asciinema.org/a/TuipD3mbSsdnhdhR2h6MFfEKo.svg)](https://asciinema.org/a/TuipD3mbSsdnhdhR2h6MFfEKo)
