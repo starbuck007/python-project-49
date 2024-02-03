@@ -5,14 +5,20 @@
 
 ### Games
 
-#### Parity check
+#### Even or Not
  ```
  brain-even
  ```
 [![asciicast](https://asciinema.org/a/xVQ1HvpjTM9QTodR7EBILfCTN.svg)](https://asciinema.org/a/xVQ1HvpjTM9QTodR7EBILfCTN)
 
-#### Calc game
+#### Calculator
 ```
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/f9fANiYVU7FBdHuskZpzqPMro.svg)](https://asciinema.org/a/f9fANiYVU7FBdHuskZpzqPMro)
+
+#### Find the greatest common divisor of given numbers
+```
+brain-gcd
+```
+[![asciicast](https://asciinema.org/a/Krtm30F24kTIuTY8JBL6rdMXb.svg)](https://asciinema.org/a/Krtm30F24kTIuTY8JBL6rdMXb)
