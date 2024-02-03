@@ -1,4 +1,4 @@
-# Game: Get the result of the expression
+# Game: Calculator
 import random
 
 
