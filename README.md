@@ -9,13 +9,13 @@
  ```
  brain-even
  ```
-[![asciicast](https://asciinema.org/a/xVQ1HvpjTM9QTodR7EBILfCTN.svg)](https://asciinema.org/a/xVQ1HvpjTM9QTodR7EBILfCTN)
+[![asciicast](https://asciinema.org/a/eXWHZh5MBvlDEMMfJN6lj2DzV.svg)](https://asciinema.org/a/eXWHZh5MBvlDEMMfJN6lj2DzV)
 
 #### Calculator
 ```
 brain-calc
 ```
-[![asciicast](https://asciinema.org/a/f9fANiYVU7FBdHuskZpzqPMro.svg)](https://asciinema.org/a/f9fANiYVU7FBdHuskZpzqPMro)
+[![asciicast](https://asciinema.org/a/W1gUiHS69zXrEauxgk0GwG3UV.svg)](https://asciinema.org/a/W1gUiHS69zXrEauxgk0GwG3UV)
 
 #### Find the greatest common divisor of given numbers
 ```
