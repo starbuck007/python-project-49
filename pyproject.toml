@@ -1,14 +1,27 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Study project #1. Brain Games"
 authors = ["Regina Khairutdinova <regina.khajrutdinova@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/starbuck007/python-project-49"
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Version Control :: Git"
+]
+
 packages = [{ include = "brain_games" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
 prompt = "^0.4.1"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
@@ -17,9 +30,6 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
-
-[tool.poetry.group.dev.dependencies]
-flake8 = "^7.0.0"
 
 [build-system]
 requires = ["poetry-core"]
