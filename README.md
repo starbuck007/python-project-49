@@ -1,9 +1,37 @@
+# Brain Games
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/starbuck007/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/starbuck007/python-project-49/actions)
+[![Actions Status](https://github.com/starbuck007/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/starbuck007/python-project-49/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/09f179137f114e7ade5f/maintainability)](https://codeclimate.com/github/starbuck007/python-project-49/maintainability)
+## Description
+A collection of console games for testing math skills.
+- **Even or Not**. Determine if a number is even or odd.
+- **Calculator**. It's a simple calculator with basic mathematical opertions: addition, subtraction, and multiplication. 
+- **Find the greatest common divisor of given numbers**. Find the greatest common divisor of two numbers.
+- **Arithmetic Progression**. Find the missing number in an arithmetic progression.
+- **Is It a Prime Number**. Determine if a number is a prime or not.
+### Minimal requirements
+- python 3.12 or higher
+- poetry 1.7.1 or higher
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/09f179137f114e7ade5f/maintainability)](https://codeclimate.com/github/starbuck007/python-project-49/maintainability)
+### How to install
+Clone the project
+```
+git clone git@github.com:starbuck007/python-project-49.git
+```
+Change directory
+```
+cd python-project-49
+```
+Install dependencies
+```
+make install
+```
+Activate enviroment
+```
+poetry shell
+```
+[![asciicast](https://asciinema.org/a/VO1y13LSOxAkNiflSHqUl4RLg.svg)](https://asciinema.org/a/VO1y13LSOxAkNiflSHqUl4RLg)
 
-### Games
+### How to play
 
 #### Even or Not
  ```
