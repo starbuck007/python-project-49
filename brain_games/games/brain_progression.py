@@ -26,4 +26,4 @@ def get_question() -> tuple[str, str]:
     question = [str(i) for i in progression]
     question[missing_number - 1] = '..'
     correct_answer = get_correct_answer(progression, missing_number)
-    return ', '.join(question), correct_answer
+    return ' '.join(question), correct_answer
