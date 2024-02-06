@@ -31,7 +31,7 @@ def gameplay(game):
 
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was"
-                  f" '{str(correct_answer)}'\nLet's try again!")
+                  f" '{str(correct_answer)}'\nLet's try again, {name}!")
             break
     if counter == 3:
         print(f'Congratulations, {name}!')
