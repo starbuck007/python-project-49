@@ -1,5 +1,6 @@
 # Game: "Is It a Prime Number?"
 from random import randint
+from math import sqrt
 
 
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -7,13 +8,12 @@ RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def get_correct_answer(number: int) -> str:
     """Get correct answer for question"""
-    counter = 0
-    for i in range(1, number + 1):
+    if number <= 1:
+        return 'no'
+    for i in range(2, int(sqrt(number)) + 1):
         if number % i == 0:
-            counter += 1
-            if counter > 2:
-                break
-    return 'yes' if counter == 2 else 'no'
+            return 'no'
+    return 'yes'
 
 
 def get_question() -> tuple[str, str]:
