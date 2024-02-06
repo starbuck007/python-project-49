@@ -9,7 +9,7 @@ A collection of console games for testing math skills.
 - **Arithmetic Progression**. Find the missing number in an arithmetic progression.
 - **Is It a Prime Number**. Determine if a number is a prime or not.
 ### Minimal requirements
-- python 3.12 or higher
+- python 3.11 or higher
 - poetry 1.7.1 or higher
 
 ### How to install
