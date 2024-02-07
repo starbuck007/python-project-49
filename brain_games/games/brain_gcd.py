@@ -5,21 +5,22 @@ from random import randint
 RULE = 'Find the greatest common divisor of given numbers.'
 
 
-def get_correct_answer(numbers: list[int]) -> str:
+def get_correct_answer(number_1: int, number_2: int) -> int:
     """Get correct answer for question"""
     correct_answer = 1
-    numbers.sort()
-    for i in range(1, numbers[0] + 1):
-        if numbers[0] % i == 0 and numbers[1] % i == 0:
+    min_number = min(number_1, number_2)
+    for i in range(1, min_number + 1):
+        if number_1 % i == 0 and number_2 % i == 0:
             correct_answer = i
         else:
             continue
-    return str(correct_answer)
+    return correct_answer
 
 
 def get_question() -> tuple[str, str]:
     """Get question and correct answer for game"""
-    nums = [randint(0, 100) for _ in range(2)]
-    question = f'{str(nums[0])} {str(nums[1])}'
-    correct_answer = get_correct_answer(nums)
+    number_1 = randint(0, 100)
+    number_2 = randint(0, 100)
+    question = f'{str(number_1)} {str(number_2)}'
+    correct_answer = str(get_correct_answer(number_1, number_2))
     return question, correct_answer
