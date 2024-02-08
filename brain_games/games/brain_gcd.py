@@ -5,8 +5,8 @@ from random import randint
 RULE = 'Find the greatest common divisor of given numbers.'
 
 
-def get_correct_answer(number_1: int, number_2: int) -> int:
-    """Get correct answer for question"""
+def get_divisor(number_1: int, number_2: int) -> int:
+    """Get the greatest common divisor of numbers"""
     correct_answer = 1
     min_number = min(number_1, number_2)
     for i in range(1, min_number + 1):
@@ -17,10 +17,10 @@ def get_correct_answer(number_1: int, number_2: int) -> int:
     return correct_answer
 
 
-def get_question() -> tuple[str, str]:
+def get_content() -> tuple[str, str]:
     """Get question and correct answer for game"""
     number_1 = randint(0, 100)
     number_2 = randint(0, 100)
-    question = f'{str(number_1)} {str(number_2)}'
-    correct_answer = str(get_correct_answer(number_1, number_2))
+    question = f'{number_1} {number_2}'
+    correct_answer = str(get_divisor(number_1, number_2))
     return question, correct_answer
