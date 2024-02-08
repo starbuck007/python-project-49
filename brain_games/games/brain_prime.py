@@ -7,7 +7,7 @@ RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number: int) -> bool:
-    """Get correct answer for question"""
+    """Check number for prime"""
     if number <= 1:
         return False
     for i in range(2, int(sqrt(number)) + 1):
