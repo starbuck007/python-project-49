@@ -2,7 +2,7 @@
 import prompt
 
 
-ROUND = 3
+ROUNDS_COUNT = 3
 
 
 def play(game):
@@ -12,7 +12,7 @@ def play(game):
     print(f'Hello, {name}')
     print(game.RULE)
 
-    for i in range(ROUND):
+    for _ in range(ROUNDS_COUNT):
         question, correct_answer = game.get_content()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')

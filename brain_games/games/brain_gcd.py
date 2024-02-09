@@ -12,8 +12,6 @@ def get_divisor(number_1: int, number_2: int) -> int:
     for i in range(1, min_number + 1):
         if number_1 % i == 0 and number_2 % i == 0:
             correct_answer = i
-        else:
-            continue
     return correct_answer
 
 
